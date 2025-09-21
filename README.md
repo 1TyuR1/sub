@@ -1,9 +1,9 @@
-###Subscriptions API###
+Subscriptions API
 Коротко: REST‑сервис учёта подписок (CRUDL) и расчёт суммы за период, чистая архитектура (Domain → UseCase → Adapters → Drivers).
 
 Стек: Go 1.24, Chi, PostgreSQL (pgx), Docker Compose, Swagger.
 
-###Запуск:###
+Запуск:
 
 cp .env.example .env
 
